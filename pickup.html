@@ -52,13 +52,13 @@
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar-menu">
-                    <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                        <li class="nav-item"><a class="nav-link" href="shop.html">SHOP</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="gallery.html">Gallery</a></li>
-                        <li class="nav-item"><a class="nav-link" href="pickup.html">Book Pickup Slot</a></li>
+				<div class="collapse navbar-collapse" id="navbar-menu">
+					<ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
+						<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+						<li class="nav-item"><a class="nav-link" href="shop.html">SHOP</a></li>
+						<li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+						<li class="nav-item active"><a class="nav-link" href="pickup.html">Book pickup slot</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -94,145 +94,77 @@
     <!-- End Top Search -->
 
 
-    <!-- Start Gallery  -->
-    <div class="products-box">
+    <!-- Start Contact Us  -->
+    <div class="contact-box-main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="title-all text-center">
-                        <h1>Gallery</h1>
-                        <p>Share your art work with other......</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="special-menu text-center">
-                        <div class="button-group filter-button-group">
-                            <button class="active" data-filter="*">All</button>
-                            <button data-filter=".category1">category1</button>
-                            <button data-filter=".category2">category2</button>
-							<button data-filter=".category3">category3</button>
-							<button data-filter=".category4">category4</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                <div class="col-lg-8 col-sm-12">
+                    <div class="contact-form-right">
+                        <h2>BOOK A PICKUP SLOT</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed odio justo, ultrices ac nisl sed, lobortis porta elit. Fusce in metus ac ex venenatis ultricies at cursus mauris.</p>
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="OrderNo" name="name" placeholder="OrderNo" required data-error="Please enter your OrderNo">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="meeting-time">Choose a time to pickup your package from the store:  </label>
 
-            <div class="row special-list">
-                <div class="col-lg-3 col-md-6 special-grid category1">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <div class="type-lb">
+                                        <input type="datetime-local" id="meeting-time"
+                                           name="meeting-time" value="2020-06-12T19:30"
+                                           min="2020-10-05T00:00" max="2020-11-05T00:00">
+                                    </div>
+                                    <div class="submit-button text-center">
+                                        <button class="btn hvr-hover" id="submit" type="submit">Book Appointment</button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <img src="images/gallery-img-01.jpg" class="img-fluid" alt="Image">
-                             
-                        </div>
+                        </form>
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-6 special-grid category2">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-02.jpg" class="img-fluid" alt="Image">
-
-                        </div>                        
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid category1">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-03.jpg" class="img-fluid" alt="Image">
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid category2">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">                            
-                            <img src="images/gallery-img-04.jpg" class="img-fluid" alt="Image">
-                            
-                        </div>                        
-                    </div>
-                </div>
-				<div class="col-lg-3 col-md-6 special-grid category1">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-05.jpg" class="img-fluid" alt="Image">
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid category2">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">                            
-                            <img src="images/gallery-img-06.jpg" class="img-fluid" alt="Image">
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid category3">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-07.jpg" class="img-fluid" alt="Image">
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid category4">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">                            
-                            <img src="images/gallery-img-08.jpg" class="img-fluid" alt="Image">
-
-                        </div>                        
-                    </div>
-                </div>
-				
-				<div class="col-lg-3 col-md-6 special-grid category4">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">                            
-                            <img src="images/gallery-img-09.jpg" class="img-fluid" alt="Image">
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid category3">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-10.jpg" class="img-fluid" alt="Image">
- 
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid category4">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">                           
-                            <img src="images/gallery-img-11.jpg" class="img-fluid" alt="Image">
-                            
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6 special-grid category3">
-                    <div class="products-single fix">
-                        <div class="box-img-hover">
-                            <img src="images/gallery-img-12.jpg" class="img-fluid" alt="Image">
-                        </div>                        
+				<div class="col-lg-4 col-sm-12">
+                    <div class="contact-info-left">
+                        <h2>CONTACT INFO</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent urna diam, maximus ut ullamcorper quis, placerat id eros. Duis semper justo sed condimentum rutrum. Nunc tristique purus turpis. Maecenas vulputate. </p>
+                        <ul>
+                            <li>
+                                <p><i class="fas fa-map-marker-alt"></i>Address: Bettry's Art Store <br>Downtown Windsor,<br> ON </p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-phone-square"></i>Phone: <a href="tel:+1-999999999">+1-999 999 999</a></p>
+                            </li>
+                            <li>
+                                <p><i class="fas fa-envelope"></i>Email: <a href="mailto:admin@bettysart.store">admin@bettysart.store</a></p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Gallery  -->
+    <!-- End Cart -->
 
-    <!-- Start Instagram Feed  -->
+<!-- Start Instagram Feed  -->
     <div class="instagram-box">
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
@@ -320,7 +252,7 @@
     <!-- End Instagram Feed  -->
 
 
-<!-- Start Footer  -->
+    <!-- Start Footer  -->
     <footer>
         <div class="footer-main">
             <div class="container">
@@ -376,11 +308,12 @@
         </div>
     </footer>
     <!-- End Footer  -->
+
     <!-- Start copyright  -->
-    <div class="footer-copyright">
+<!--     <div class="footer-copyright">
         <p class="footer-company">All Rights Reserved. &copy; 2018 <a href="#">ThewayShop</a> Design By :
             <a href="https://html.design/">html design</a></p>
-    </div>
+    </div> -->
     <!-- End copyright  -->
 
     <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
